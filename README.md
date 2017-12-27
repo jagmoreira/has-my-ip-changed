@@ -2,10 +2,11 @@
 
 Small python script to determine a host's external IP and send a Slack bot message to the user whenever the IP changes.
 
-Ideally, this script is run regularly as a cronjob, e.g., once per day.
+If you have a home server and don't have a static IP from your ISP, then this script could be useful to always be able to find the server's location.
+Ideally, this script would run regularly as a cronjob, e.g., once per day, on the server.
 
 
-## Getting started
+## Usage
 
 1. This script requires only [`slacker`](https://github.com/os/slacker), a Python interface to the Slack API (well, `slacker` as a few requirements itself): `pip install slacker`
 
