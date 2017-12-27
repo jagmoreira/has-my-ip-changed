@@ -8,7 +8,7 @@ Ideally, this script would run regularly as a cronjob, e.g., once per day, on th
 
 ## Usage
 
-1. This script requires only [`slacker`](https://github.com/os/slacker), a Python interface to the Slack API (well, `slacker` as a few requirements itself): `pip install slacker`
+1. This script requires Python >= 3.4. The only extra package required is [`slacker`](https://github.com/os/slacker), a Python interface to the Slack API (well, `slacker` has a few requirements itself): `pip install -r requirements.pip`
 
 1. Copy the configurations template: `$cp config_template.py config.py`.
     This file will be ignore by git.
