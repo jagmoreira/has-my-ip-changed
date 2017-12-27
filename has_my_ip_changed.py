@@ -10,12 +10,7 @@ from pathlib import Path
 
 from slacker import Slacker
 
-import config
-# try:
-# except ImportError:
-#     # dummy object if config.py doesn't exist
-#     # See config_template.py for example configuration
-#     config = object()
+config = object()
 
 
 def get_ip():
